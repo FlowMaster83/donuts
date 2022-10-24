@@ -547,6 +547,10 @@ a {
     margin-left: auto;
 }
 
+.form {
+
+}
+
 .input-style {
     font-family: var(--main-font);
     font-style: normal;
