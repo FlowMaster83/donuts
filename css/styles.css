@@ -136,6 +136,7 @@ a {
     width: 50px;
     height: 50px;
     fill: var(--pink-fill-circle);
+    z-index: 999;
 }
 
 .hero {
@@ -237,6 +238,33 @@ a {
 
 .section {
     position: relative;
+}
+
+.backgroung-circle {
+    position: absolute;
+    top: 134px;
+    right: -23px;
+    width: 50px;
+    height: 50px;
+    fill: var(--pink-fill-circle);
+}
+
+.program__backgroung-circle-thin {
+    width: 50px;
+    height: 50px;
+    fill: rgba(214, 131, 98, 0.17);
+    position: absolute;
+    top: 235px;
+    left: -23px;
+}
+
+.program__backgroung-circle_thin {
+    position: absolute;
+    top: 315px;
+    right: 55px;
+    width: 20px;
+    height: 20px;
+    fill: var(--grey-fill-circle);
 }
 
 .about__backgroung-circle {
@@ -359,6 +387,7 @@ a {
     position: absolute;
     width: 50px;
     height: 50px;
+    top: 0;
     right: 78px;
     fill: var(--grey-fill-circle);
 }
