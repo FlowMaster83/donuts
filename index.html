@@ -19,98 +19,108 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header container">
-      <div class="header__elements">
-        <nav class="header__nav">
-          <div class="nav__logo_link">
-            <a class="" href="./index.html">
-              <svg class="logo">
-                <use href="./img/sprite.svg#icon-logo"></use>
+    <div class="hero-image">
+      <header class="header container">
+        <svg class="hero__backgroung-circle">
+          <use href="./img/sprite.svg#icon-decor"></use>
+        </svg>
+
+        <div class="header__elements">
+          <nav class="header__nav">
+            <div class="nav__logo_link">
+              <a class="" href="./index.html">
+                <svg class="logo">
+                  <use href="./img/sprite.svg#icon-logo"></use>
+                </svg>
+              </a>
+            </div>
+
+            <ul class="nav__list">
+              <li class="list_item">About us</li>
+              <li class="list_item">Program</li>
+              <li class="list_item">Speakers</li>
+              <li class="list_item">Price</li>
+              <li class="list_item">Reviews</li>
+              <li class="list_item">Contacts</li>
+            </ul>
+
+            <button class="open-mm_btn">
+              <svg class="open-mm_icon">
+                <use href="./img/sprite.svg#icon-burger"></use>
               </svg>
-            </a>
+            </button>
+          </nav>
+        </div>
+
+        <!-- hero -->
+        <section class="hero">
+          <div class="container">
+            <h1 class="hero__title">Donut Masterclass with the Donut King</h1>
+            <p class="hero__desc">Hosted by Eva Green</p>
+            <button class="hero__btn" type="submit">Register</button>
           </div>
+        </section>
+        <!-- hero -->
 
-          <ul class="nav__list">
-            <li class="list_item">About us</li>
-            <li class="list_item">Program</li>
-            <li class="list_item">Speakers</li>
-            <li class="list_item">Price</li>
-            <li class="list_item">Reviews</li>
-            <li class="list_item">Contacts</li>
+        <!-- social list -->
+        <section class="section">
+          <ul class="social">
+            <li>
+              <a href="https://twitter.com/?lang=ru">
+                <svg class="social__icon">
+                  <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/">
+                <svg class="social__icon">
+                  <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/">
+                <svg class="social__icon">
+                  <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-
-          <button class="open-mm_btn">
-            <svg class="open-mm_icon">
-              <use href="./img/sprite.svg#icon-burger"></use>
-            </svg>
-          </button>
-        </nav>
-      </div>
-    </header>
+        </section>
+      </header>
+    </div>
+    <!-- social list -->
     <!-- HEADER -->
 
-    <!-- hero -->
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero__title">Donut Masterclass with the Donut King</h1>
-        <p class="hero__desc">Hosted by Eva Green</p>
-        <button class="hero__btn" type="submit">Register</button>
-      </div>
-    </section>
-    <!-- hero -->
-
-    <!-- social list -->
-    <section class="section">
-      <ul class="social">
-        <li>
-          <a href="https://twitter.com/?lang=ru">
-            <svg class="social__icon">
-              <use href="./img/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.instagram.com/">
-            <svg class="social__icon">
-              <use href="./img/sprite.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.facebook.com/">
-            <svg class="social__icon">
-              <use href="./img/sprite.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <!-- social list -->
-
     <!-- ABOUT US -->
-    <section class="container">
+    <section class="container section">
+      <svg class="about__backgroung-circle">
+        <use href="./img/sprite.svg#icon-decor"></use>
+      </svg>
+
       <picture>
         <source
           srcset="
-            ./img/img_about_us/webp/mob/donuts_about_us.webp    1x,
-            ./img/img_about_us/webp/mob/donuts_about_us@2x.webp 2x
+            ./img/about_us/mob/webp/donuts_about_us.webp    1x,
+            ./img/about_us/mob/webp/donuts_about_us@2x.webp 2x
           "
-          media="(min-width: 480px)"
+          media="(min-width: 320px)"
           type="img/webp"
         />
 
         <source
           srcset="
-            ./img/img_about_us/png/mob/donuts_about_us.png    1x,
-            ./img/img_about_us/png/mob/donuts_about_us@2x.png 2x
+            ./img/about_us/mob/png/donuts_about_us.png    1x,
+            ./img/about_us/mob/png/donuts_about_us@2x.png 2x
           "
-          media="(min-width: 480px)"
+          media="(min-width: 320px)"
         />
 
         <img
-          src="img/img_about_us/mob/donuts_about_us.png"
+          src="img/about_us/mob/donuts_about_us.png"
           alt="sprinkles donuts"
           class="about__img"
         />
@@ -138,6 +148,10 @@
 
     <!-- PROGRAM -->
     <section class="container">
+      <svg class="program__backgroung-circle">
+        <use href="./img/sprite.svg#icon-decor"></use>
+      </svg>
+
       <h3 class="section__title_program">Program</h3>
       <p class="section__desc">
         Indulge in this immersive sweet treat experience with The Chef Donut

@@ -9,6 +9,9 @@
     --pink: #F3848C;
     --shadow: rgba(210, 201, 201, 0.45);
     --form-background-color: #3D2C2C;
+    --main-background: #BDBDBD;
+    --pink-fill-circle: rgba(243, 132, 140, 0.12);
+    --grey-fill-circle: rgba(60, 50, 45, 0.12);
 }
 
 h1,
@@ -117,9 +120,37 @@ a {
     }
 }
 
+.header {
+    position: relative;
+}
+
 .header__nav {
     display: flex;
     justify-content: space-between;
+}
+
+.hero__backgroung-circle {
+    position: absolute;
+    top: 104px;
+    left: 38px;
+    width: 50px;
+    height: 50px;
+    fill: var(--pink-fill-circle);
+}
+
+.hero {
+    text-align: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-image {
+    background-image: url('../img/hero/hero-img_mob.png');
+    background-size: cover;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero__title {
@@ -202,6 +233,19 @@ a {
     color: var(--main-color);
 
     margin-top: 28px;
+}
+
+.section {
+    position: relative;
+}
+
+.about__backgroung-circle {
+    position: absolute;
+    top: 345px;
+    right: 26px;
+    width: 80px;
+    height: 80px;
+    fill: var(--pink-fill-circle);
 }
 
 .about_text {
@@ -307,6 +351,16 @@ a {
     line-height: 1.25;
     text-align: center;
     color: var(--main-color);
+
+    position: relative;
+}
+
+.program__backgroung-circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 78px;
+    fill: var(--grey-fill-circle);
 }
 
 .section__list {
