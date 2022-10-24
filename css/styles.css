@@ -547,16 +547,12 @@ a {
     margin-left: auto;
 }
 
-.form {
-
-}
-
 .input-style {
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     color: var(--white);
     background-color: transparent;
     border: none;
@@ -581,4 +577,99 @@ a {
     cursor: pointer;
     margin-right: auto;
     margin-left: auto;
+}
+
+.section-title__contact {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.21;
+    text-align: center;
+    color: var(--secondary-color);
+
+    padding-top: 40px;
+}
+
+.section-desc__contact {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;    
+    color: var(--secondary-color);
+
+    padding-top: 27px;
+}
+
+.contact__form {
+    padding-top: 16px;
+}
+
+.input-style-contact {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--white);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    outline: none;
+}
+
+.modal-form-message {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--white);
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    outline: none;
+    resize: none;
+}
+
+.social-footer {
+    margin-top: 29px;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.item_icon-phone {
+    width: 13px;
+    height: 13px;
+}
+
+.item_icon-location {
+    width: 11px;
+    height: 14px;
+}
+
+.item_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-text {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: right;
+    color: var(--secondary-color);
 }

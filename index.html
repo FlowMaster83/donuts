@@ -552,62 +552,64 @@
       <h3 class="section__title_registration">Registration</h3>
       <div class="form-card">
         <p class="registration-date">May 23, 11:00 New York</p>
-      <!-- form -->
-      <h4 class="form-title">Apply your personal info for registration</h4>
-      <form class="form">
-        <label class="label">
-          <input
-            type="text"
-            class="input-style"
-            required
-            pattern="[a-zA-Zа-яА-ЯіІїЇ'`]+"
-            name="user_name"
-            placeholder="Your Name"
-          />
-        </label>
+        <!-- form -->
+        <h4 class="form-title">Apply your personal info for registration</h4>
+        <form class="form">
+          <label class="label">
+            <input
+              type="text"
+              class="input-style"
+              required
+              pattern="[a-zA-Zа-яА-ЯіІїЇ'`]+"
+              name="user_name"
+              placeholder="Your Name"
+            />
+          </label>
 
-        <label class="label">
-          <input
-            type="tel"
-            class="input-style"
-            required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xxx-xxx-xx-xx"
-            name="user_phone"
-            placeholder="Phone Number"
-          />
-        </label>
+          <label class="label">
+            <input
+              type="tel"
+              class="input-style"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              name="user_phone"
+              placeholder="Phone Number"
+            />
+          </label>
 
-        <label class="label">
-          <input
-            type="email"
-            class="input-style"
-            required
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            name="user_email"
-            placeholder="Email"
-          />
-        </label>
+          <label class="label">
+            <input
+              type="email"
+              class="input-style"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              name="user_email"
+              placeholder="Email"
+            />
+          </label>
 
-        <button class="form-btn" type="submit">Register</button>
-      </form>
-      <!-- form -->
+          <button class="form-btn" type="submit">Register</button>
+        </form>
+      </div>
     </section>
-  </div>
+
+    <!-- form -->
     <!-- REGISTRATION -->
 
     <!-- CONTACT -->
     <section class="container">
-      <h3>Contact</h3>
-      <p>We will answer any question!</p>
-      <form>
-        <label>
+      <h3 class="section-title__contact">Contact</h3>
+      <p class="section-desc__contact">We will answer any question!</p>
+      <form class="contact__form">
+        <label class="label">
           <input
             type="email"
-            class=""
+            class="input-style-contact"
             required
             pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             name="user_email"
+            placeholder="Email"
           />
         </label>
 
@@ -618,7 +620,7 @@
             placeholder="Type your question"
           ></textarea>
         </label>
-        <button type="submit">Send</button>
+        <button class="form-btn" type="submit">Send</button>
       </form>
     </section>
     <!-- CONTACT -->
@@ -626,15 +628,53 @@
     <!-- FOOTER -->
     <footer class="container">
       <!-- social links -->
-      <ul>
-        <li>twitter icon</li>
-        <li>instagram icon</li>
-        <li>facebook icon</li>
-      </ul>
-      <!-- social links -->
+      <section class="section">
+        <ul class="social social-footer">
+          <li>
+            <a href="https://twitter.com/?lang=ru">
+              <svg class="social__icon">
+                <use href="./img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
 
-      <p>(910)222-8855</p>
-      <p>New York</p>
+          <li>
+            <a href="https://www.instagram.com/">
+              <svg class="social__icon">
+                <use href="./img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/">
+              <svg class="social__icon">
+                <use href="./img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- social links -->
+      <ul class="footer-elements">
+        <li class="elements__item">
+          <a class="item_link">
+            <svg class="item_icon-phone">
+              <use href="./img/sprite.svg#icon-vector-phone"></use>
+            </svg>
+            <p class="footer-text">(910)222-8855</p></a
+          >
+        </li>
+
+        <li class="elements__item">
+          <a class="item_link">
+            <svg class="item_icon-location">
+              <use href="./img/sprite.svg#icon-vector-location"></use>
+            </svg>
+            <p class="footer-text">New York</p></a
+          >
+        </li>
+      </ul>
     </footer>
     <!-- FOOTER -->
   </body>
