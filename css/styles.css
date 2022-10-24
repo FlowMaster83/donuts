@@ -88,6 +88,7 @@ a {
 @media screen and (min-width:1200px) {
     .nav__list {
         display: flex;
+        margin-left: 55px;
     }
 }
 
@@ -98,12 +99,19 @@ a {
 .open-mm_btn {
     border: none;
     background-color: transparent;
+    margin-right: 32px;
 }
 
 .open-mm_icon {
     width: 30px;
     height: 16px;
     fill: var(--main-color);
+}
+
+@media screen and (min-width:1200px) {
+    .open-mm_btn { 
+        display: none;
+    }
 }
 
 .logo {
@@ -126,8 +134,18 @@ a {
 
 .header__nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
+
+@media screen and (max-width:1199px) {
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
 
 .hero__backgroung-circle {
     position: absolute;
