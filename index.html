@@ -234,9 +234,9 @@
           <p class="list_desc">Secret receipt of cooking from Eva</p>
         </li>
 
-        <svg class="program__backgroung-circle_thin">
+        <!-- <svg class="program__backgroung-circle_thin">
           <use href="./img/sprite.svg#icon-decor-thin"></use>
-        </svg>
+        </svg> -->
 
         <li class="section__list_item">
           <div class="out-border">
@@ -259,9 +259,115 @@
       <br />
       <a class="section__link" href="#">Read More</a>
 
-      <ul>
-        <li></li>
-      </ul>
+      <div class="program__image-position">
+        <ul class="program__image-list">
+          <li class="image-list__item">
+            <picture>
+              <source
+                srcset="
+                  ./img/program/content/webp/type.webp    1x,
+                  ./img/program/content/webp/type@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="img/webp"
+              />
+              <source
+                srcset="
+                  ./img/program/content/mob/type.png    1x,
+                  ./img/program/content/mob/type@2x.png 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <img
+                src="./img/program/content/mob/type.png"
+                alt="Type of the event"
+                class="program__image-edit"
+              />
+            </picture>
+
+            <div class="program__img-element">
+              <h3 class="img_title">Type of the event</h3>
+              <p class="img_desc">Cooking classes</p>
+            </div>
+          </li>
+
+          <li>
+            <picture>
+              <source
+                srcset="
+                  ./img/program/content/webp/number.webp    1x,
+                  ./img/program/content/webp/number@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="img/webp"
+              />
+              <source
+                srcset="
+                  ./img/program/content/mob/number.png    1x,
+                  ./img/program/content/mob/number@2x.png 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <img
+                src="./img/program/content/mob/number.png"
+                alt="Number of guests"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+
+      <div class="program__image-position">
+        <ul class="program__image-list">
+          <li>
+            <picture>
+              <source
+                srcset="
+                  ./img/program/content/webp/time.webp    1x,
+                  ./img/program/content/webp/time@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="img/webp"
+              />
+              <source
+                srcset="
+                  ./img/program/content/mob/time.png    1x,
+                  ./img/program/content/mob/time@2x.png 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <img
+                src="./img/program/content/mob/time.png"
+                alt="Time of the event"
+              />
+            </picture>
+          </li>
+
+          <li>
+            <picture>
+              <source
+                srcset="
+                  ./img/program/content/webp/host.webp    1x,
+                  ./img/program/content/webp/host@2x.webp 2x
+                "
+                media="(min-width: 320px)"
+                type="img/webp"
+              />
+              <source
+                srcset="
+                  ./img/program/content/mob/host.png    1x,
+                  ./img/program/content/mob/host@2x.png 2x
+                "
+                media="(min-width: 320px)"
+              />
+              <img
+                src="./img/program/content/mob/host.png"
+                alt="The host speaks"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- PROGRAM -->
 
