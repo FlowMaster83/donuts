@@ -316,6 +316,7 @@ a {
 }
 
 /* PROGRAM */
+/* SPEAKERS */
 
 .section__title_speakers {
     font-family: var(--title-font);
@@ -327,6 +328,28 @@ a {
     color: var(--main-color);
 
     margin-top: 36px;
+    margin-bottom: 16px;
+}
+
+.speakers__layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.speakers__layout_couple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .speakers__layout_couple {
+        flex-direction: row;
+    }
 }
 
 .out-border {
@@ -359,7 +382,22 @@ a {
     fill: var(--black);
 }
 
-.speakers__item {
+.speakers__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.speakers__list_item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.speaker__title {
     font-family: var(--title-font);
     font-style: normal;
     font-weight: 600;
@@ -369,7 +407,7 @@ a {
     color: var(--main-color);
 }
 
-.speakers__desc {
+.speaker__desc {
     font-family: var(--title-font);
     font-style: normal;
     font-weight: 500;
