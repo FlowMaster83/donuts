@@ -167,6 +167,7 @@ a {
 .hero-image {
     background-image: url('../img/hero/hero-img_mob.png');
     background-size: cover;
+    background-color: var(--main-background);
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
@@ -404,10 +405,10 @@ a {
     width: 130px;
 } */
 
-.program__img-element {
+/* .program__img-element {
     position: absolute;
     top: 62px;
-}
+} */
 
 .img_title {
     font-family: var(--title-font);
@@ -416,7 +417,7 @@ a {
     font-size: 14px;
     line-height: 1.21;
     text-align: center;
-    color: var(--white);
+    /* color: var(--white); */
 
     margin-bottom: 8px;
     text-align: center;
@@ -429,7 +430,7 @@ a {
     font-size: 12px;
     line-height: 1.25;
     text-align: center;
-    color: var(--white);
+    /* color: var(--white); */
 
     text-align: center;
 }
