@@ -301,16 +301,16 @@
             <picture>
               <source
                 srcset="
-                  ./img/program/content/webp/number.webp    1x,
-                  ./img/program/content/webp/number@2x.webp 2x
+                  ./img/program/content/mob/webp/number.webp    1x,
+                  ./img/program/content/mob/webp/number@2x.webp 2x
                 "
                 media="(min-width: 320px)"
                 type="img/webp"
               />
               <source
                 srcset="
-                  ./img/program/content/mob/number.png    1x,
-                  ./img/program/content/mob/number@2x.png 2x
+                  ./img/program/content/mob/png/number.png    1x,
+                  ./img/program/content/mob/png/number@2x.png 2x
                 "
                 media="(min-width: 320px)"
               />
@@ -319,6 +319,11 @@
                 alt="Number of guests"
               />
             </picture>
+
+            <div class="program__img-element">
+              <h3 class="img_title">Number of guests</h3>
+              <p class="img_desc">1 to 20</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -329,16 +334,16 @@
             <picture>
               <source
                 srcset="
-                  ./img/program/content/webp/time.webp    1x,
-                  ./img/program/content/webp/time@2x.webp 2x
+                  ./img/program/content/mob/webp/time.webp    1x,
+                  ./img/program/content/mob/webp/time@2x.webp 2x
                 "
                 media="(min-width: 320px)"
                 type="img/webp"
               />
               <source
                 srcset="
-                  ./img/program/content/mob/time.png    1x,
-                  ./img/program/content/mob/time@2x.png 2x
+                  ./img/program/content/mob/png/time.png    1x,
+                  ./img/program/content/mob/png/time@2x.png 2x
                 "
                 media="(min-width: 320px)"
               />
@@ -347,22 +352,27 @@
                 alt="Time of the event"
               />
             </picture>
+
+            <div class="program__img-element">
+              <h3 class="img_title">Time of the event</h3>
+              <p class="img_desc">18:30 (2.5 hours)</p>
+            </div>
           </li>
 
           <li>
             <picture>
               <source
                 srcset="
-                  ./img/program/content/webp/host.webp    1x,
-                  ./img/program/content/webp/host@2x.webp 2x
+                  ./img/program/content/mob/webp/host.webp    1x,
+                  ./img/program/content/mob/webp/host@2x.webp 2x
                 "
                 media="(min-width: 320px)"
                 type="img/webp"
               />
               <source
                 srcset="
-                  ./img/program/content/mob/host.png    1x,
-                  ./img/program/content/mob/host@2x.png 2x
+                  ./img/program/content/mob/png/host.png    1x,
+                  ./img/program/content/mob/png/host@2x.png 2x
                 "
                 media="(min-width: 320px)"
               />
@@ -372,6 +382,11 @@
               />
             </picture>
           </li>
+
+          <div class="program__img-element">
+            <h3 class="img_title">The host speaks</h3>
+            <p class="img_desc">English, French</p>
+          </div>
         </ul>
       </div>
     </section>
@@ -380,26 +395,158 @@
     <!-- SPEAKERS -->
     <section class="container">
       <h3 class="section__title_speakers">Speakers</h3>
-      <ul>
-        <li>
-          <h4 class="speakers__item">Molly Rivera</h4>
-          <p class="speakers__desc">
-            Pastry chef, master chocolatier of Spain,
-          </p>
-        </li>
-        <li>
-          <h4 class="speakers__item">Sophia Clark</h4>
-          <p class="speakers__desc">Сulinary school pastry chef</p>
-        </li>
-        <li>
-          <h4 class="speakers__item">Isabella Taylor</h4>
-          <p class="speakers__desc">Сonsultant in the art of confectionery</p>
-        </li>
-        <li>
-          <h4 class="speakers__item">Evelyn Miller</h4>
-          <p class="speakers__desc">Master- chocolatier in Spain</p>
-        </li>
-      </ul>
+      <div class="speakers__layout">
+        <div class="speakers__layout_couple">
+          <ul class="speakers__list">
+            <li class="speakers__list_item">
+              <picture>
+                <source
+                  src="
+                ./img/speakers/mob/webp/molly_rivera_webp/molly_rivera.webp    1x,
+                ./img/speakers/mob/webp/molly_rivera_webp/molly_rivera@2x.webp 2x
+                "
+                  media="(min-width: 320px)"
+                  type="img/webp"
+                />
+                <source
+                  srcset="
+                    ./img/speakers/mob/png/molly_rivera_png/molly_rivera.png    1x,
+                    ./img/speakers/mob/png/molly_rivera_png/molly_rivera@2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/speakers/mob/png/molly_rivera.png"
+                  alt="Evelyn Miller"
+                />
+              </picture>
+
+              <h4 class="speaker__title">Molly Rivera</h4>
+              <p class="speaker__desc">
+                Pastry chef, master chocolatier of Spain
+              </p>
+            </li>
+
+            <li class="speakers__list_item">
+              <picture>
+                <!-- <source
+              src="
+                ./img/speakers/mob/webp/isabella_taylor_webp/isabella_taylor_closer.webp    1x,
+                ./img/speakers/mob/webp/isabella_taylor_webp/isabella_taylor_closer@2x.webp 2x
+                "
+              media="(min-width: 320px)"
+              type="img/webp"
+            /> -->
+                <source
+                  src="
+                ./img/speakers/mob/webp/isabella_taylor_webp/isabella_taylor.webp    1x,
+                ./img/speakers/mob/webp/isabella_taylor_webp/isabella_taylor@2x.webp 2x
+                "
+                  media="(min-width: 320px)"
+                  type="img/webp"
+                />
+
+                <!-- <source
+              srcset="
+                ./img/speakers/mob/png/isabella_taylor_png/isabella_taylor_closer.png    1x,
+                ./img/speakers/mob/png/isabella_taylor_png/isabella_taylor_closer@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            /> -->
+                <source
+                  srcset="
+                    ./img/speakers/mob/png/isabella_taylor_png/isabella_taylor.png    1x,
+                    ./img/speakers/mob/png/isabella_taylor_png/isabella_taylor@2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/speakers/mob/png/isabella_taylor.png"
+                  alt="Evelyn Miller"
+                />
+              </picture>
+
+              <h4 class="speaker__title">Isabella Taylor</h4>
+              <p class="speaker__desc">
+                Сonsultant in the art of confectionery
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="speakers__layout_couple">
+          <ul class="speakers__list">
+            <li class="speakers__list_item">
+              <picture>
+                <!-- <source
+              src="
+                ./img/speakers/mob/webp/sophia_clark_webp/sophia_clark_closer.webp    1x,
+                ./img/speakers/mob/webp/sophia_clark_webp/sophia_clark_closer@2x.webp 2x
+                "
+              media="(min-width: 320px)"
+              type="img/webp"
+            /> -->
+                <source
+                  src="
+                ./img/speakers/mob/webp/sophia_clark_webp/sophia_clark.webp    1x,
+                ./img/speakers/mob/webp/sophia_clark_webp/sophia_clark@2x.webp 2x
+                "
+                  media="(min-width: 320px)"
+                  type="img/webp"
+                />
+                <!-- <source
+              srcset="
+                ./img/speakers/mob/png/sophia_clark_png/sophia_clark_closer.png    1x,
+                ./img/speakers/mob/png/sophia_clark_png/sophia_clark_closer@2x.png 2x
+              "
+              media="(min-width: 320px)"
+            /> -->
+                <source
+                  srcset="
+                    ./img/speakers/mob/png/sophia_clark_png/sophia_clark.png    1x,
+                    ./img/speakers/mob/png/sophia_clark_png/sophia_clark@2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/speakers/mob/png/sophia_clark.png"
+                  alt="Evelyn Miller"
+                />
+              </picture>
+
+              <h4 class="speaker__title">Sophia Clark</h4>
+              <p class="speaker__desc">Сulinary school pastry chef</p>
+            </li>
+
+            <li class="speakers__list_item">
+              <picture>
+                <source
+                  src="
+                  ./img/speakers/mob/webp/evelyn_miller_webp/evelyn_miller_webp,webp    1x,
+                  ./img/speakers/mob/webp/evelyn_miller_webp/evelyn_miller_webp@2x.webp 2x
+                "
+                  media="(min-width: 320px)"
+                  type="img/webp"
+                />
+                <source
+                  srcset="
+                    ./img/speakers/mob/png/evelyn_miller_png/evelyn_miller.png    1x,
+                    ./img/speakers/mob/png/evelyn_miller_png/evelyn_miller@2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./img/speakers/mob/png/evelyn_miller.png"
+                  alt="Evelyn Miller"
+                />
+              </picture>
+
+              <h4 class="speaker__title">Evelyn Miller</h4>
+              <p class="speaker__desc">Master- chocolatier in Spain</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     <!-- SPEAKERS -->
 
