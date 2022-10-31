@@ -242,6 +242,17 @@ a {
 
 
 /* ABOUT */
+
+.about-us__position {
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    .about-us__position {
+        display: flex;
+    }
+}
+
 .section__title_about {
     font-family: var(--title-font);
     font-style: normal;
